@@ -1,0 +1,41 @@
+# Virtual environment
+venv/
+env/
+
+# Logs
+*.log
+
+# Model files
+*.h5
+checkpoint/
+*.ckpt*
+
+# Scikit-learn Joblib files
+*.joblib
+
+# Data files
+*.csv
+*.tsv
+*.json
+*.xlsx
+*.xls
+
+# Python bytecode files
+*.pyc
+*.pyo
+__pycache__/
+
+# IDE/editor settings
+.vscode/
+.idea/
+.sublime-project
+.project
+
+# Temporary and backup files
+*.tmp
+*.bak
+*.swp
+
+# Test data
+test_data/
+*.test

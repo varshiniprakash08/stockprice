@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ stock_name }} Prediction</title>
+</head>
+<body>
+    <h1>Stock Price Prediction for {{ stock_name }}</h1>
+    <img src="data:image/png;base64,{{ plot_data }}" alt="Prediction Graph">
+    <h2>Next 30 Days Predictions</h2>
+    <ul>
+        {% for price in predictions %}
+            <li>{{ price[0] }}</li>
+        {% endfor %}
+    </ul>
+    <a href="/">Go Back</a>
+</body>
+</html>
